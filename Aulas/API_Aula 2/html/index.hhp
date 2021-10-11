@@ -1,0 +1,55 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=My Project
+
+[WINDOWS]
+main="My Project","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+_calculadora_8cs_source.html
+_calculadora_i_p_c_a_8cs_source.html
+_8_n_e_t_framework_00_version_0Av4_87_82_8_assembly_attributes_8cs_source.html
+_assembly_info_8cs_source.html
+_calculadora_8cs.html
+_calculadora_i_p_c_a_8cs.html
+_8_n_e_t_framework_00_version_0Av4_87_82_8_assembly_attributes_8cs.html
+_assembly_info_8cs.html
+namespace_aula2.html
+class_aula2_1_1_calculadora.html
+class_aula2_1_1_calculadora-members.html
+class_aula2_1_1_calculadora_i_p_c_a.html
+class_aula2_1_1_calculadora_i_p_c_a-members.html
+dir_9dbc4466a1c4812d609f05f76182fcf6.html
+dir_908a14c0ab655d66b398e55f48942d43.html
+dir_275089585c7fc1b5fd5d7d42c69cb1da.html
+dir_03504b4f7258561007837b7a040bdbdf.html
+dir_ad8ef12cc24385a7d522712e36efa516.html
+dir_a1e8703e3fcd9987bbda94b18c24155f.html
+dir_6204ffb0615b3a6961aa35a9e5e052d9.html
+dir_086d6729732d06ee6f2d6359f6688595.html
+index.html
+namespaces.html
+annotated.html
+classes.html
+functions.html
+functions_func.html
+files.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
