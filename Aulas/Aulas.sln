@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 1 - Basico", "Aula 1 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula3 - Arrays", "Aula3 - Arrays\Aula3 - Arrays.csproj", "{5D67059F-B0FD-4231-9C93-80F3509A41B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_11_10_2021", "Exeercicio_11_10_2021\Exercicio_11_10_2021.csproj", "{063F9E85-4C2E-4668-8200-B2131A47C314}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_11_10_2021", "Exercicio_11_10_2021\Exercicio_11_10_2021.csproj", "{063F9E85-4C2E-4668-8200-B2131A47C314}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -32,9 +32,7 @@ namespace Aula3
         /// <summary>
         /// The default Constructor.
         /// </summary>
-        public Structs()
-        {
-        }
+ 
 
         #endregion
 
@@ -53,15 +51,11 @@ namespace Aula3
         /// <summary>
         /// The destructor.
         /// </summary>
-        ~Structs()
-        {
-        }
+
         #endregion
 
         #endregion
     }
 
-    //Exercicio de Aula
-    //Encontrar o doente que se encontra hospitalizado à mais tempo
-    //arrays, structs, datetime
+   
 }

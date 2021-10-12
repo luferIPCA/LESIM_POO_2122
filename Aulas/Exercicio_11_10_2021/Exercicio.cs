@@ -10,6 +10,20 @@ using System;
 
 namespace Exercicio_11_10_2021
 {
+
+    #region Doentes
+    public enum Estado { ALTA, UCI, INTERNADO };
+
+    public struct Doente
+    {
+        public string nome;
+        //estado
+        public Estado estado;
+        public int idade;
+        public DateTime dataInternamento;
+    }
+    #endregion
+
     /// <summary>
     /// Purpose:
     /// Created by: lufer
@@ -38,8 +52,6 @@ namespace Exercicio_11_10_2021
         #region Properties
         #endregion
 
-
-
         #region Overrides
         #endregion
 
@@ -58,8 +70,7 @@ namespace Exercicio_11_10_2021
         #endregion
 
         #region ArraySimples
-
-        public static bool Existe(int[] v, int valor) {
+        public static bool Existe(int[] v, int valor) { 
             //h1
             //int size = v.Length;
             //for (int i = 0; i < size; i++)
@@ -76,7 +87,12 @@ namespace Exercicio_11_10_2021
 
         }
 
-
+        /// <summary>
+        /// Verifica se determinado doente existe no hospital
+        /// </summary>
+        /// <param name="hospital"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public static bool ExisteDoente(Doente[] hospital, string n)
         {
             foreach(Doente d in hospital)
@@ -89,14 +105,62 @@ namespace Exercicio_11_10_2021
         }
 
         /// <summary>
-        /// Completar : TPC
+        /// Remove elemento de um array
+        /// O número de elementos do array define as posições ocupadas
         /// </summary>
-        /// <param name="v"></param>
-        /// <param name="valor"></param>
-        /// <returns></returns>
-        public static bool RemoveElemento(int[] v, int valor)
+        /// <param name="v">array</param>
+        /// <param name="valor">valor a remover</param>
+        /// <returns>Número de elementos do array</returns>
+        public static int RemoveElemento(int[] v, int valor)
         {
-            return false;
+            int pos = -1;       //posição com o elemento a remover
+            //encontrar o elemento a remover
+            for(int i=0; i<v.Length;i++)
+            {
+                if (v[i]==valor)
+                {
+                    pos = i; break;
+                }
+            }
+            if (pos == -1) return -1;//se não encontrou o valor, termina
+
+            //remover o elemento
+            int newSize = v.Length - 1;
+            for (int k = pos; k < newSize; k++)
+            {
+                v[k] = v[k + 1];
+            }
+            return newSize;
+        }
+
+        /// <summary>
+        /// Remove elemento de um array
+        /// O número de elementos do array define as posições ocupadas
+        /// Elementos removidos passam a "null" no array
+        /// </summary>
+        /// <param name="v">array de valores nullable </param>
+        /// <param name="valor">valor a remover</param>
+        /// <returns>Número de elementos do array</returns>
+        public static int RemoveElementoNull(int?[] v, int valor)
+        {
+            int pos = -1;       //posição com o elemento a remover
+            //encontrar o elemento a remover
+            for (int i = 0; i < v.Length; i++)
+            {
+                if (v[i] == valor)
+                {
+                    pos = i; break;
+                }
+            }
+            if (pos == -1) return -1;//se não encontrou o valor
+            //remover o elemento
+            int newSize = v.Length - 1;
+            for (int k = pos; k < newSize; k++)
+            {
+                v[k] = v[k + 1];
+            }
+            v[newSize] = null;      //marca valor removido
+            return newSize;
         }
 
         #endregion
@@ -151,17 +215,33 @@ namespace Exercicio_11_10_2021
 
         #endregion
 
+        #region Doentes
+        //Exercicio de Aula :12-10-2021
+        //Encontrar o doente que se encontra hospitalizado
+        //à mais tempo
+        //arrays, structs, datetime
+
+        public static Doente InternadoHaMaisTempo(Doente[] hospital)
+        {
+            Doente aux = hospital[0];
+            int dias = 0;
+            foreach (Doente d in hospital)
+            {
+                int xx = (DateTime.Today.Subtract(d.dataInternamento)).Days;
+
+                if (xx > dias)
+                {
+                    aux = d;
+                    dias = xx;
+                }
+            }
+            return aux;
+        }
+        #endregion
+
     }
 
-    #region Doentes
-    public enum Estado { ALTA, UCI, INTERNADO };
 
-    public struct Doente
-    {
-        public string nome;
-        //estado
-        public Estado estado;
-        public int idade;
-    }
-    #endregion
+
+
 }

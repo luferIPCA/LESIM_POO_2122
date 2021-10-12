@@ -18,10 +18,9 @@ namespace Exercicio_11_10_2021
         //Remover elemento de array Simples
         static void Main(string[] args)
         {
-
             Doente[] doentes = new Doente[10];
             Doente[] doentes2 = new Doente[] { new Doente() { idade = 12, estado = Estado.ALTA, nome = "" } };
-            Doente d1;
+            Doente d1 = new Doente(); ;
             d1.nome = "ola";
             d1.idade = 12;
             d1.estado = Estado.INTERNADO;
@@ -31,6 +30,11 @@ namespace Exercicio_11_10_2021
             doentes[1].nome = "Ole";
             doentes[1].estado = Estado.ALTA;
             doentes[1].idade = 97;
+
+            int?[] valores = { 2, 3, 4, 1, 4 };
+
+            int aux = Exercicio.RemoveElemento(valores, 3);
+
         }
     }
 }
