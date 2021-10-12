@@ -16,6 +16,28 @@ namespace Aula3
 {
     class Program
     {
+        #region Enums
+        enum Notas { Passou = 10, Reprovou = 9 };
+        public enum WeekDays
+        {
+            Monday,     //0
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday      //6
+        }
+        enum Colors { Red = 1, Green = 2, Blue = 4, Yellow = 8 };
+
+        #endregion
+
+        public int GetEnum(WeekDays w)
+        {
+
+            if (w == WeekDays.Friday) return 0;
+            return 1;
+        }
         static void Main(string[] args)
         {
             #region Parametros
@@ -67,7 +89,17 @@ namespace Aula3
 
             double max = Arrays.MaxValue(notas);
 
+            Carro[] garagem = new Carro[10];
+            garagem[0] = new Carro() { ano = DateTime.Now, marca = "", matricula = "" };
             Console.ReadKey();
+            #endregion
+
+            #region Matrizes
+
+            int[,] matA = { { 1, 4 }, { 2, 5 }, { 3, 6 } };
+            int[,] matB = { { 1, 2,3 }, { 4,5,6 } };
+            int[,] matRes = Arrays.MultiplicaMatrizes(matA, matB);
+
             #endregion
 
         }
