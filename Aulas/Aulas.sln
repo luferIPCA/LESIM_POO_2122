@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 2 - Essencial", "Aula 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 1 - Basico", "Aula 1 - Basico\Aula 1 - Basico.csproj", "{E5247CCE-BD43-485C-B2D2-84689E3F1116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula3 - Arrays", "Aula3 - Arrays\Aula3 - Arrays.csproj", "{5D67059F-B0FD-4231-9C93-80F3509A41B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 3 - Arrays", "Aula 3 - Arrays\Aula3 - Arrays.csproj", "{5D67059F-B0FD-4231-9C93-80F3509A41B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_11_10_2021", "Exercicio_11_10_2021\Exercicio_11_10_2021.csproj", "{063F9E85-4C2E-4668-8200-B2131A47C314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 4 - Classes", "Aula 4 - Classes\Aula4 - Classes.csproj", "{954D131B-AE57-458B-9AF2-99F054C0E18C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{063F9E85-4C2E-4668-8200-B2131A47C314}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{063F9E85-4C2E-4668-8200-B2131A47C314}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{063F9E85-4C2E-4668-8200-B2131A47C314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954D131B-AE57-458B-9AF2-99F054C0E18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954D131B-AE57-458B-9AF2-99F054C0E18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954D131B-AE57-458B-9AF2-99F054C0E18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954D131B-AE57-458B-9AF2-99F054C0E18C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

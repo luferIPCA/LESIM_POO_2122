@@ -144,6 +144,8 @@ namespace Exercicio_11_10_2021
         public static int RemoveElementoNull(int?[] v, int valor)
         {
             int pos = -1;       //posição com o elemento a remover
+
+            //if (v[0]==null)
             //encontrar o elemento a remover
             for (int i = 0; i < v.Length; i++)
             {

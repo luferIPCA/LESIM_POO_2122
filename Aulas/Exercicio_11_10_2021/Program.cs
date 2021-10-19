@@ -31,9 +31,13 @@ namespace Exercicio_11_10_2021
             doentes[1].estado = Estado.ALTA;
             doentes[1].idade = 97;
 
+            int[] valores1 = { 2, 3, 4, 1, 4 };
+
+            int aux = Exercicio.RemoveElemento(valores1, 3);
+            
             int?[] valores = { 2, 3, 4, 1, 4 };
 
-            int aux = Exercicio.RemoveElemento(valores, 3);
+            aux = Exercicio.RemoveElementoNull(valores, 3);
 
         }
     }
