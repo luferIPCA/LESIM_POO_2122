@@ -7,15 +7,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 2 - Essencial", "Aula 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 1 - Basico", "Aula 1 - Basico\Aula 1 - Basico.csproj", "{E5247CCE-BD43-485C-B2D2-84689E3F1116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula3 - Arrays", "Aula 3 - Arrays\Aula3 - Arrays.csproj", "{5D67059F-B0FD-4231-9C93-80F3509A41B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 3 - Arrays", "Aula 3 - Arrays\Aula 3 - Arrays.csproj", "{5D67059F-B0FD-4231-9C93-80F3509A41B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_11_10_2021", "Exercicio_11_10_2021\Exercicio_11_10_2021.csproj", "{063F9E85-4C2E-4668-8200-B2131A47C314}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula4 - Classes", "Aula 4 - Classes\Aula4 - Classes.csproj", "{954D131B-AE57-458B-9AF2-99F054C0E18C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 4 - Classes", "Aula 4 - Classes\Aula 4 - Classes.csproj", "{954D131B-AE57-458B-9AF2-99F054C0E18C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 3 - Folha de Exercicios III", "Solução Folha Exercicios 6\Aula 3 - Classes_MyBank\Aula 3 - Classes\Aula 3 - Folha de Exercicios III.csproj", "{51B459A4-930B-4F19-AE1F-EB1BC54BDCCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula5-Operadores", "Aula 5 - Operadores\Aula5-Operadores.csproj", "{FB990AA2-07E7-42F9-AD21-D91A21C75310}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 5 - Operadores", "Aula 5 - Operadores\Aula 5 - Operadores.csproj", "{FB990AA2-07E7-42F9-AD21-D91A21C75310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 6 - DLL", "Aula 6 - DLL\Aula 6 - DLL.csproj", "{8D6687B4-80E1-4494-A0BE-5C2C26557BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 7 - Pilares", "Aula 7 - Pilares\Aula 7 - Pilares.csproj", "{14BB8147-D814-46A1-9F33-C9C5EF15853D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{FB990AA2-07E7-42F9-AD21-D91A21C75310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB990AA2-07E7-42F9-AD21-D91A21C75310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB990AA2-07E7-42F9-AD21-D91A21C75310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6687B4-80E1-4494-A0BE-5C2C26557BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6687B4-80E1-4494-A0BE-5C2C26557BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6687B4-80E1-4494-A0BE-5C2C26557BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6687B4-80E1-4494-A0BE-5C2C26557BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BB8147-D814-46A1-9F33-C9C5EF15853D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BB8147-D814-46A1-9F33-C9C5EF15853D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BB8147-D814-46A1-9F33-C9C5EF15853D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BB8147-D814-46A1-9F33-C9C5EF15853D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
