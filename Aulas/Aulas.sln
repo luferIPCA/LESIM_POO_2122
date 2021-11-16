@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 1 - Basico", "Aula 1 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 3 - Arrays", "Aula 3 - Arrays\Aula 3 - Arrays.csproj", "{5D67059F-B0FD-4231-9C93-80F3509A41B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_11_10_2021", "Exercicio_11_10_2021\Exercicio_11_10_2021.csproj", "{063F9E85-4C2E-4668-8200-B2131A47C314}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_11_10_2021 - Consolidação", "Exercicio_11_10_2021\Exercicio_11_10_2021 - Consolidação.csproj", "{063F9E85-4C2E-4668-8200-B2131A47C314}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 4 - Classes", "Aula 4 - Classes\Aula 4 - Classes.csproj", "{954D131B-AE57-458B-9AF2-99F054C0E18C}"
 EndProject
@@ -23,7 +23,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 7 - Pilares", "Aula 7 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 8 - Pilaress", "Aula 8 - Pilaress\Aula 8 - Pilaress.csproj", "{E9F0DB30-E895-466B-B4DA-B7454C14407C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo-GereBanco", "Exemplo-GereBanco\Exemplo-GereBanco.csproj", "{EC9C87EB-F361-403A-B081-90E8658F2BFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo-GereBanco - Consolidação", "Exemplo-GereBanco\Exemplo-GereBanco - Consolidação.csproj", "{EC9C87EB-F361-403A-B081-90E8658F2BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 9 - Exceptions I", "Aula 9 - Exceptions I\Aula 9 - Exceptions I.csproj", "{3FC37F32-2D62-4331-82C0-534A9398D509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 9 - Exceptions II", "Aula 9 - Exceptions II\Aula 9 - Exceptions II.csproj", "{3006BE53-608E-451F-8C34-EA0A8F66E391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 9 - Exceptions", "Aula 9 - Exceptions III\Aula 9 - Exceptions.csproj", "{1E2556B6-4CE0-4A49-A12D-80C0F4ED9D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 10 - Collectiions", "Aula 10 - Collectiions\Aula 10 - Collectiions.csproj", "{A2E10035-D27E-4C3A-81B7-C18149BBC211}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{EC9C87EB-F361-403A-B081-90E8658F2BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC9C87EB-F361-403A-B081-90E8658F2BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC9C87EB-F361-403A-B081-90E8658F2BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC37F32-2D62-4331-82C0-534A9398D509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC37F32-2D62-4331-82C0-534A9398D509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC37F32-2D62-4331-82C0-534A9398D509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC37F32-2D62-4331-82C0-534A9398D509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3006BE53-608E-451F-8C34-EA0A8F66E391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3006BE53-608E-451F-8C34-EA0A8F66E391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3006BE53-608E-451F-8C34-EA0A8F66E391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3006BE53-608E-451F-8C34-EA0A8F66E391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2556B6-4CE0-4A49-A12D-80C0F4ED9D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2556B6-4CE0-4A49-A12D-80C0F4ED9D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2556B6-4CE0-4A49-A12D-80C0F4ED9D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2556B6-4CE0-4A49-A12D-80C0F4ED9D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E10035-D27E-4C3A-81B7-C18149BBC211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E10035-D27E-4C3A-81B7-C18149BBC211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E10035-D27E-4C3A-81B7-C18149BBC211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E10035-D27E-4C3A-81B7-C18149BBC211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

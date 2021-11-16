@@ -22,8 +22,8 @@ namespace GereBanco
         /// </summary>
         /// <param name="valor"></param>
         /// <returns></returns>
+        /// 
         double LevantaValor(double valor);
-
         /// <summary>
         /// 
         /// </summary>
