@@ -69,8 +69,8 @@ namespace Aula_6_Pilares
 
             Condutor cond = new Condutor();
             cond.Ano = DateTime.Now.Year;
-            cond.Idade = 24;
-            cond.Nome = "Manuel";
+            //cond.Idade = 24;
+            //cond.Nome = "Manuel";
 
             #endregion
 
