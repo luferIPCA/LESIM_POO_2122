@@ -370,6 +370,8 @@ namespace FilesAndFolders
     public class Pessoas
     {
         public Hashtable dados = new Hashtable();   //CUIDADO!!!
+        public int tot = 0;
+        
         /// <summary>
         ///  Write the data to a bynary file
         /// </summary>
@@ -401,6 +403,7 @@ namespace FilesAndFolders
                 Stream s = File.Open(fileName, FileMode.Open, FileAccess.Read);
                 BinaryFormatter b = new BinaryFormatter();
                 dados = (Hashtable)b.Deserialize(s);
+                tot = dados.Count;
                 s.Flush();
                 s.Close();
                 s.Dispose();

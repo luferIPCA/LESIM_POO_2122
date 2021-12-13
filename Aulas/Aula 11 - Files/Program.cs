@@ -109,11 +109,20 @@ namespace FilesAndFolders
             #endregion
 
             #region File and Collections
-
             Pessoas p = new Pessoas();
-            p.InsertPerson(new Pessoa(12));
-            p.InsertPerson(new Pessoa(13));
-            p.InsertPerson(new Pessoa(14));
+
+            bool aux = p.Load(@"c:\temp\hashData.bin");
+            if (!aux || p.tot==0)
+            {
+                p.InsertPerson(new Pessoa(12));
+                p.InsertPerson(new Pessoa(13));
+                p.InsertPerson(new Pessoa(14));
+            }
+
+            //Pessoas p = new Pessoas();
+            //p.InsertPerson(new Pessoa(12));
+            //p.InsertPerson(new Pessoa(13));
+            //p.InsertPerson(new Pessoa(14));
             p.Show();           //É possível?
             //p.Sort();           //É possível?
             //Preserva Hashtable

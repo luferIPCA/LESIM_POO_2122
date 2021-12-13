@@ -88,10 +88,10 @@ namespace Generics_II
 
             //Sort(IComparer<T> p)
             
-            //products.Sort(new Product());
+            products.Sort(new Product());
             //ou
             //IComparable
-            products.Sort();
+            //products.Sort();
 
             Console.WriteLine("\nDepois:");
             foreach (Product p in products)
